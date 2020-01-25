@@ -28,26 +28,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("../images/pattern.svg");
+  background: #000;
 }
 .container .main {
   flex: 0 0 300px;
-  background: #fff;
+  background: #201f1f;
   height: 150px;
   position: relative;
+  border-radius: 8px;
 }
 .container .main .badge {
   position: absolute;
   top: 0;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #f00;
+  background: #625f5f;
   padding: 5px 10px;
-  color: #fff;
+  color: yellow;
   font-weight: bold;
   font-size: 15px;
-  width: 100px;
+  width: 150px;
   text-align: center;
+  border-radius: 5px;
+  border: 1px solid yellow;
 }
 .container .main .clock {
   position: absolute;
@@ -59,14 +62,16 @@
   height: 55%;
   text-align: center;
   display: flex;
+  overflow: hidden;
+  border-radius: 6px;
 }
 .container .main .clock div {
   flex: 1;
-  background: chocolate;
+  background: #625f5f;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: yellow;
   font-weight: bold;
   font-size: 25px;
 }
